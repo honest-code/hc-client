@@ -14,6 +14,9 @@
     "honestcode": "./src/hc-client H1WLGPxtr1GLuGPlFHy7IuMw ../acceptance_test_results.json",
     "codeclimate": "codeclimate-test-reporter < ./coverage/lcov.info"
   },
+  "engines": {
+    "node": ">=6.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/honest-code/hc-client.git"
