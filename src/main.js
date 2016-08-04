@@ -1,7 +1,6 @@
 'use strict';
 
 const honestcode = require('./honestcode');
-const fs = require('fs');
 
 const blueprint_hook = process.argv[2];
 const test_result = process.argv[3];
@@ -20,10 +19,10 @@ const filepath = `${__dirname}/${test_result}`;
 
 honestcode
 	.sendTestResults(blueprint_hook, filepath)
-	.then(()=> {
+	.then( () => {
 		console.log('Congratulations! Your tests results have been sent to HonestCode.io successfully');
 	})
-	.catch(err=> {
+	.catch( err => {
 		console.error(err, blueprint_hook, test_result);
 		process.exit();
 	});
