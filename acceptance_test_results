@@ -13,7 +13,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 891508
+              "duration": 883344
             },
             "hidden": true,
             "match": {
@@ -26,11 +26,11 @@
             "name": "I already have the file \"test_results.json\" with result \"{}\"",
             "result": {
               "status": "passed",
-              "duration": 306128
+              "duration": 1421540
             },
             "line": 9,
             "match": {
-              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/given/I_already_have_the_file_S_with_result_S.js:4"
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/given/I_already_have_the_file_S_with_result_S.js:6"
             }
           },
           {
@@ -39,7 +39,7 @@
             "name": "I already have the blueprint hook code \"HOOK_VALID_CODE\"",
             "result": {
               "status": "passed",
-              "duration": 143179
+              "duration": 162094
             },
             "line": 10,
             "match": {
@@ -49,20 +49,28 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I request to send the test result file \"test_results.json\" to the blueprint hook url using \"HOOK_VALID_CODE\"",
+            "name": "I request to send the test results",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 302225045
             },
-            "line": 11
+            "line": 11,
+            "match": {
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/when/I_request_to_send_the_test_results.js:6"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "I don't receive any error",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 188242
             },
-            "line": 12
+            "line": 12,
+            "match": {
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/then/I_dont_have_an_error.js:6"
+            }
           }
         ],
         "tags": [],
