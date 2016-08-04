@@ -8,5 +8,5 @@ Feature: Send cucumber test results to blueprint hook url
   Scenario: POST /api/hook/tr/ with no errors
     Given I already have the file "test_results.json" with result "{}"
     And I already have the blueprint hook code "HOOK_VALID_CODE"
-    When I request to send the test result file "test_results.json" to the blueprint hook url using "HOOK_VALID_CODE"
+    When I request to send the test results
     Then I don't receive any error
