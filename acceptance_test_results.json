@@ -13,7 +13,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 883344
+              "duration": 795281
             },
             "hidden": true,
             "match": {
@@ -26,7 +26,7 @@
             "name": "I already have the file \"test_results.json\" with result \"{}\"",
             "result": {
               "status": "passed",
-              "duration": 1421540
+              "duration": 1350644
             },
             "line": 9,
             "match": {
@@ -39,7 +39,7 @@
             "name": "I already have the blueprint hook code \"HOOK_VALID_CODE\"",
             "result": {
               "status": "passed",
-              "duration": 162094
+              "duration": 135302
             },
             "line": 10,
             "match": {
@@ -52,7 +52,7 @@
             "name": "I request to send the test results",
             "result": {
               "status": "passed",
-              "duration": 302225045
+              "duration": 804767083
             },
             "line": 11,
             "match": {
@@ -65,11 +65,23 @@
             "name": "I don't receive any error",
             "result": {
               "status": "passed",
-              "duration": 188242
+              "duration": 142139
             },
             "line": 12,
             "match": {
               "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/then/I_dont_have_an_error.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 694695
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/hooks/files.js:6"
             }
           }
         ],
