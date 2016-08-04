@@ -1,0 +1,79 @@
+[
+  {
+    "description": "  As a Client\n  I want to be able to send a test result to honestcode.io",
+    "elements": [
+      {
+        "id": "send-cucumber-test-results-to-blueprint-hook-url;post-/api/hook/tr/-with-no-errors",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "POST /api/hook/tr/ with no errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 891508
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/hooks/world.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I already have the file \"test_results.json\" with result \"{}\"",
+            "result": {
+              "status": "passed",
+              "duration": 306128
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/given/I_already_have_the_file_S_with_result_S.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I already have the blueprint hook code \"HOOK_VALID_CODE\"",
+            "result": {
+              "status": "passed",
+              "duration": 143179
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/step_definitions/given/I_already_have_the_blueprint_hook_code_S.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I request to send the test result file \"test_results.json\" to the blueprint hook url using \"HOOK_VALID_CODE\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I don't receive any error",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "send-cucumber-test-results-to-blueprint-hook-url",
+    "keyword": "Feature",
+    "line": 4,
+    "name": "Send cucumber test results to blueprint hook url",
+    "tags": [],
+    "uri": "/Users/jdacruz/src/honestcode.io/hc-client/test/acceptance/features/send_cucumber_test_results_to_blueprint_hook_url.feature"
+  }
+]
