@@ -10,7 +10,7 @@ dependencies:
 test:
   override:
     - npm run coverage
-    - npm run coverage-coveralls
+    - npm run coveralls
     - npm run honestcode
 deployment:
   npm:
