@@ -11,6 +11,7 @@
     "coverange-to-coveralls": "cat ./coverage-mocha/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "coverage": "npm run coverage-acceptance",
     "coveralls": "istanbul-coveralls",
+    "honestcode": "./src/hc-client H1WLGPxtr1GLuGPlFHy7IuMw ../acceptance_test_results.json",
     "codeclimate": "codeclimate-test-reporter < ./coverage/lcov.info"
   },
   "repository": {
